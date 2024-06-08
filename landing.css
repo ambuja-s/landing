@@ -1,0 +1,486 @@
+ body
+{
+    background-color:rgb(241 241 241);
+}
+
+header
+{
+    height: 600px;
+    width:100%;
+    background-image: url("1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;   
+}
+ #navigation
+{
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: fixed;
+    top: 3px;
+    height: 80px;
+    background-color: #8f6e01;
+    width:99%;
+    
+ 
+    
+    
+}
+#left
+    {
+        width:200px;
+        height: 100px;
+        text-align: center;
+        
+        }
+img
+{
+    width: 200px;
+    height: 40px;
+    padding-left: 2px;
+}   
+span{
+    font-size:24px;
+    font-weight:bold;
+    font-family: ubantu;
+    font-style: italic;
+    color: rgb(56, 2, 2);
+    
+    }     
+#center
+   {
+    width:700px ;
+    height: 100px;
+    display:block;
+    padding-top: 13px;
+   }
+
+.navbar ul
+ {
+  display: flex;
+ }
+
+ .navbar li
+ {
+list-style:none;
+ }
+.navbar li a
+{
+color:rgb(56, 2, 2);
+font-family: ubantu;
+text-decoration: none;
+font-size: 18px;
+padding: 18px 15px;
+line-height: 10px;
+font-weight: bolder;
+} 
+.navbar li a:hover
+{
+background-color: black;
+text-decoration: underline;
+border-radius: 15px;
+}
+.navbar li a:visited
+{
+background-color:blue;
+}
+#right
+{
+ height: 100px;   
+width: 250px;  
+padding-top:15px;
+
+}
+.btn1
+{     
+cursor: pointer;
+background-color: rgb(56, 2, 2);
+text-decoration: none;
+padding:12px;
+margin: 2px;
+font-family: ubantu;
+color: antiquewhite;
+border-radius: 10px;
+width:95px ;
+font-size: 15px;
+
+}
+.btn1:hover
+{
+color: white;
+background-color: black;
+}
+
+#content
+{
+
+height:400px;
+width:800px;
+margin-top: 200px;
+
+}
+#content h1
+{
+    padding-left:80px ;
+    color:rgb(56, 2, 2);
+}
+#content p
+{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: ubantu;
+    padding: 5px 70px;
+}
+button
+{
+  background-color: rgb(56, 2, 2);
+  color: white;
+  padding: 10px;
+  width: 400px;
+  font-size: 15px;
+  font-family: ubantu;
+  text-align: center;
+  margin-left:25%;
+  cursor: pointer;
+}
+button:hover
+{
+ background-color: black;
+}
+
+section
+{
+
+    
+
+}
+#container1
+{
+    
+    height: 570px;
+    width: 100%;   
+ }
+#left1
+{ 
+    
+    height: 170px;
+    width: 100%;
+    display: flex;
+
+
+
+}
+#left1 h1
+{
+     text-align: center;
+      width: 50%;
+     padding:25px 30px;   
+}
+#left1 p
+{
+    justify-content: center;
+    padding:0px 25px;
+    width: 50%;
+    padding-top: 15px;
+    font-family: ubantu;
+    font-weight: bold;
+
+}
+#right1
+{
+
+    height: 400px;
+    width: 100%;
+    display: flex;   
+}
+#right1 img
+{
+  height: 360px;  
+  width: 310px;
+  justify-content: space-evenly;
+  padding-left: 1%;
+}
+#container2
+{
+    
+    height: 750px;
+    width: 100%;
+    display: flex;
+    background-color:rgb(56, 2, 2);
+    border-radius: 70px;
+}
+#left2
+{
+
+    height:750px;
+    width: 50%;
+}
+#left2 h1
+{
+font-size: 60px;
+text-align: center;
+padding-top: 40px;
+color: whitesmoke;
+}
+#left2 p
+{
+font-size: 20px;
+padding: 0px 50px;
+color: whitesmoke;
+}
+#right2
+{
+    
+    height: 750px;
+    width: 50%;
+}
+#right2 img{
+    height:600px;
+    width:68%;
+    border-radius: 110px;
+    padding: 90px;
+    
+}
+
+#container3
+{
+     width: 100%;
+    height:650px;
+    
+    
+    }
+#left3
+{
+    
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#left3 h1
+{
+font-size: 30px;
+text-align: center;
+
+
+}
+#right3
+{
+    height: 600px;
+    width: 100%;
+    display: flex;
+  
+}
+#right3 img
+{
+    height:280px;
+    width: 350px;
+    border-radius: 30px;
+    display: block;
+    margin: auto;
+}
+.c2{
+
+    height: 600px;
+    text-align: center;
+    padding: 3%;
+
+   }
+.c2 p
+   {
+   font-size: 20px;
+   font-family: ubantu;
+   font-weight: bold;
+   } 
+.c2 span
+  {
+   font-size: 18px;
+   font-family: ubantu;
+   color:black;
+   font-style: normal;
+  }
+#container4
+
+  {
+    height:700px ;
+    width: 100%;
+    display: flex;
+    
+  }
+
+
+   #right4
+  {
+    height: 600px; 
+    width:60%;
+    display: flex;
+  }
+
+.c3
+   {
+    height: 400px;
+    width: 340px;
+    border-radius: 30px;
+    padding-left: 30px;
+  }
+#box1
+{
+background-image:url(world9.jpg);
+margin: 60px;
+background-size: cover;
+}
+#box2
+{
+background-image:url(world9a.jpg);
+position:relative;
+top: 25%;
+right: 25%;
+background-size: cover;
+}
+#left4
+{
+
+width: 40%;
+height:600px;
+padding: 50px;
+}
+
+#left4 h1
+{
+font-size: 30px;
+text-align: center;
+padding-top: 25px;
+color: black;
+
+}
+#left4 p
+{
+font-size:18px;
+color: black;
+font-weight:bold ;
+
+}
+footer{
+    height: 400px;
+    width: 100%;
+    background-color:#8a6a03;
+    display: flex;
+    margin-top: 60px;
+    
+}
+#left5
+{
+   height: 390px;
+   width: 67%;
+  
+}
+#box3
+{
+    height: 250px;
+    width: 100%;
+    display: flex;
+ 
+}
+#box3 ul li
+{
+list-style: none;
+padding: 8px;
+font-size: 17px;
+}
+#box4
+{
+    height: 140px;
+    width: 100%;  
+    padding-left: 30px;   
+}
+#box4 img
+{
+    height: 50px;
+    width: 80px;
+}
+
+#box4 h2
+{
+font-style: normal;
+font-family: ubantu;
+}
+#b1
+{
+    height: 50px;
+    width: 100%;
+ 
+    display: flex;
+}
+#b2
+{
+    height: 90px;
+    width: 100%;
+
+}
+#right5
+{
+    height: 390px;
+    width: 33%;
+}
+.container
+ {
+    
+    border: 5px solid black;
+    margin-top: 9%;
+    margin-left: 0%;
+    background-color:white;
+    padding-left:60px;
+    height:auto;
+    width: 300px;
+    height: 300px;
+    border-radius: 70px;
+ }
+#right5 h3
+ {  
+    padding-left: 50px
+ }
+.form1 input
+{
+   width: 200px; 
+   height: 21px;
+   padding-left: 40px;
+   border-radius:15px;
+}   
+.form2 input
+{
+    
+    width: 200px; 
+   height: 21px;
+   padding-left: 40px;
+   border-radius:15px;
+
+}
+.btn
+{
+    background-color:black ;
+    border: 2px solid white;
+    color: white;
+    border-radius: 8px;
+    width: 200px;
+    height: 30px;
+    margin-left: 28px;
+    padding-bottom: 10px;
+}
+.btn:hover
+{
+    background-color:grey;
+    cursor: pointer;
+    text-decoration: underline;
+    
+}
+
+  
+
+
+
+
+
